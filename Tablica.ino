@@ -49,7 +49,7 @@ void onGospodarze_czasChange(int32_t i) {
 #ifdef __AVR__
  #include <avr/power.h>
 #endif
-#define PIN        D2
+#define PIN        D1
 #define NUMPIXELS 203
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 // Połączenie sieciowe
